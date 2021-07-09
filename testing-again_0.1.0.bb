@@ -7,11 +7,11 @@ inherit cargo
 
 # how to get testing-again could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/testing-again/0.1.0"
-SRC_URI += "git://github.com/GaetanMichel/testing_again;protocol=https;nobranch=1;branch=main"
-SRCREV = "fb4209294f1273513456882e959ba38cfe5c2f40"
+SRC_URI += "git://github.com/GaetanMichel/testing-again;protocol=https;nobranch=1;branch=main"
+SRCREV = "dc66ffe1244c700640e4e13584769ba2132e0406"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV_append = ".AUTOINC+fb4209294f"
+PV_append = ".AUTOINC+dc66ffe124"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
