@@ -1,0 +1,11 @@
+[package]
+name = "testing-again"
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+description = "Tuto for including rust app in Petalinux build"
+repository = "https://github.com/GaetanMichel/testing_again.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
